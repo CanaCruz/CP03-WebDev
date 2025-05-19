@@ -31,4 +31,5 @@ Uma aplicação web desenvolvida com **HTML**, **CSS** e **JavaScript puro** que
 
 ### 👨‍💻 Desenvolvedores
 Arthur Canaverde
+
 Lucas Zago
