@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: midnightblue; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: white;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px gray;
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  color: black;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px 15px;
+  font-size: 16px;
+  border: 1px solid gray;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  transition: border 0.3s ease;
+}
+
+input[type="text"]:focus {
+  border-color: dodgerblue;
+  outline: none;
+}
+
+button {
+  background-color: dodgerblue;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  margin: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: royalblue;
+}
+
+#resultado {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.verdadeiro {
+  color: green;
+}
+
+.falso {
+  color: red;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid gray;
+}
+
+th {
+  background-color: dodgerblue;
+  color: white;
+}
+
+td {
+  background-color: white;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 20px;
+}
+
+li a {
+  text-decoration: none;
+  color: dodgerblue;
+  transition: color 0.3s;
+}
+
+li a:hover {
+  color: royalblue;
+}
