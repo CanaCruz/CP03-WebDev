@@ -77,7 +77,6 @@ function buscarNoticias(palavraChave) {
     });
 }
 
-// Ativa os botões depois que o HTML tiver carregado
 window.onload = () => {
   document.getElementById("btnVerificar").addEventListener("click", verificarFrase);
   document.getElementById("btnHistorico").addEventListener("click", mostrarHistorico);
